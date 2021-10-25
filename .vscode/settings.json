@@ -1,0 +1,13 @@
+{
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f"
+  },
+  "eslint.nodePath": "node_modules",
+  "eslint.workingDirectories": [
+    {
+      "directory": "${workspaceFolder}"
+    }
+  ],
+  "eslint.debug": true
+}

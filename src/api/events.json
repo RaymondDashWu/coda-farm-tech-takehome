@@ -1,0 +1,3962 @@
+[
+  {
+    "device_alias": "mouse-driver",
+    "event_timestamp": "2021-06-27T12:53:57.414000+00:00",
+    "gps": {
+      "altitude": -11343,
+      "location": {
+        "coordinates": [-122.4691914, 48.3802283],
+        "type": "Point"
+      },
+      "n_sats": 16
+    }
+  },
+  {
+    "device_alias": "lummi-madrone",
+    "event_timestamp": "2021-06-27T12:55:02.286000+00:00",
+    "gps": {
+      "altitude": -18309,
+      "location": {
+        "coordinates": [-122.345267, 48.5129482],
+        "type": "Point"
+      },
+      "n_sats": 10
+    },
+    "pressure": {
+      "reading_kpa": 96,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 501,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "puffin-maple",
+    "event_timestamp": "2021-06-27T12:55:29.005000+00:00",
+    "gps": {
+      "altitude": -4531,
+      "location": {
+        "coordinates": [-122.3233683, 48.3422474],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "pressure": {
+      "reading_kpa": 115,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 630,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "trombone-dog",
+    "event_timestamp": "2021-06-05T21:57:05.196000+00:00",
+    "gps": {
+      "altitude": -27069,
+      "location": {
+        "coordinates": [-122.4726406, 48.4220744],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "reel": {
+      "run_speed_mmpm": 11066260,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "whale-hemlock",
+    "event_timestamp": "2021-06-05T21:59:27.320000+00:00",
+    "gps": {
+      "altitude": -8145,
+      "location": {
+        "coordinates": [-122.3374966, 48.3736265],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "pressure": {
+      "reading_kpa": 7,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 40195,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "whale-hemlock",
+    "event_timestamp": "2021-06-05T21:59:36.395000+00:00",
+    "gps": {
+      "altitude": -8145,
+      "location": {
+        "coordinates": [-122.3374966, 48.3736265],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "pressure": {
+      "reading_kpa": 7,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 51069,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-05T21:59:41.197000+00:00",
+    "gps": {
+      "altitude": -11383,
+      "location": {
+        "coordinates": [-122.3863029, 48.5067947],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "whale-hemlock",
+    "event_timestamp": "2021-06-05T21:59:47.501000+00:00",
+    "gps": {
+      "altitude": -8145,
+      "location": {
+        "coordinates": [-122.3374966, 48.3736265],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "pressure": {
+      "reading_kpa": 7,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 51384,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "whale-hemlock",
+    "event_timestamp": "2021-06-05T21:59:57.420000+00:00",
+    "gps": {
+      "altitude": -8145,
+      "location": {
+        "coordinates": [-122.3374966, 48.3736265],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "pressure": {
+      "reading_kpa": 7,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 60482,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "trombone-dog",
+    "event_timestamp": "2021-06-05T21:59:58.961000+00:00",
+    "gps": {
+      "altitude": -27069,
+      "location": {
+        "coordinates": [-122.4726406, 48.4220744],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "whale-hemlock",
+    "event_timestamp": "2021-06-05T22:00:06.701000+00:00",
+    "gps": {
+      "altitude": -8145,
+      "location": {
+        "coordinates": [-122.3374966, 48.3736265],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "pressure": {
+      "reading_kpa": 7,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 62375,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "whale-hemlock",
+    "event_timestamp": "2021-06-05T22:00:16.285000+00:00",
+    "gps": {
+      "altitude": -8145,
+      "location": {
+        "coordinates": [-122.3374966, 48.3736265],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "pressure": {
+      "reading_kpa": 6,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 59378,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "whale-hemlock",
+    "event_timestamp": "2021-06-05T22:00:24.557000+00:00",
+    "gps": {
+      "altitude": -8145,
+      "location": {
+        "coordinates": [-122.3374966, 48.3736265],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "pressure": {
+      "reading_kpa": 6,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 60192,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "whale-hemlock",
+    "event_timestamp": "2021-06-05T22:00:33.199000+00:00",
+    "gps": {
+      "altitude": -8145,
+      "location": {
+        "coordinates": [-122.3374966, 48.3736265],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "pressure": {
+      "reading_kpa": 6,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 60660,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "whale-hemlock",
+    "event_timestamp": "2021-06-05T22:00:42.461000+00:00",
+    "gps": {
+      "altitude": -8145,
+      "location": {
+        "coordinates": [-122.3374966, 48.3736265],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "pressure": {
+      "reading_kpa": 6,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 29348,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "whale-hemlock",
+    "event_timestamp": "2021-06-05T22:00:51.261000+00:00",
+    "gps": {
+      "altitude": -8145,
+      "location": {
+        "coordinates": [-122.3374966, 48.3736265],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "pressure": {
+      "reading_kpa": 6,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 61638,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "whale-hemlock",
+    "event_timestamp": "2021-06-05T22:00:59.965000+00:00",
+    "gps": {
+      "altitude": -8145,
+      "location": {
+        "coordinates": [-122.3374966, 48.3736265],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "pressure": {
+      "reading_kpa": 6,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 61391,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "whale-hemlock",
+    "event_timestamp": "2021-06-05T22:01:08.765000+00:00",
+    "gps": {
+      "altitude": -8145,
+      "location": {
+        "coordinates": [-122.3374966, 48.3736265],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "pressure": {
+      "reading_kpa": 6,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 57923,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "whale-hemlock",
+    "event_timestamp": "2021-06-05T22:01:18.045000+00:00",
+    "gps": {
+      "altitude": -8145,
+      "location": {
+        "coordinates": [-122.3374966, 48.3736265],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "pressure": {
+      "reading_kpa": 6,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 57496,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "whale-hemlock",
+    "event_timestamp": "2021-06-05T22:01:26.365000+00:00",
+    "gps": {
+      "altitude": -8145,
+      "location": {
+        "coordinates": [-122.3374966, 48.3736265],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "pressure": {
+      "reading_kpa": 6,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 60545,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "whale-hemlock",
+    "event_timestamp": "2021-06-05T22:01:35.022000+00:00",
+    "gps": {
+      "altitude": -8145,
+      "location": {
+        "coordinates": [-122.3374966, 48.3736265],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "pressure": {
+      "reading_kpa": 6,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 61515,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "whale-hemlock",
+    "event_timestamp": "2021-06-05T22:01:43.327000+00:00",
+    "gps": {
+      "altitude": -8145,
+      "location": {
+        "coordinates": [-122.3374966, 48.3736265],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "pressure": {
+      "reading_kpa": 6,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 68484,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "trombone-dog",
+    "event_timestamp": "2021-06-27T12:55:40.981000+00:00",
+    "gps": {
+      "altitude": -19427,
+      "location": {
+        "coordinates": [-122.4654564, 48.3782672],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "reel": {
+      "run_speed_mmpm": 443,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "stewart-calico",
+    "event_timestamp": "2021-06-27T12:56:12.497000+00:00",
+    "gps": {
+      "altitude": 318,
+      "location": {
+        "coordinates": [-122.2133706, 48.5012523],
+        "type": "Point"
+      },
+      "n_sats": 14
+    },
+    "pressure": {
+      "reading_kpa": 120,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 1370687,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "hobbit-ranger",
+    "event_timestamp": "2021-06-27T12:56:36.998000+00:00",
+    "gps": {
+      "altitude": -22512,
+      "location": {
+        "coordinates": [-122.4646016, 48.3808842],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T12:56:47.600000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 20982,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "whale-hemlock",
+    "event_timestamp": "2021-06-05T22:01:51.421000+00:00",
+    "gps": {
+      "altitude": -8145,
+      "location": {
+        "coordinates": [-122.3374966, 48.3736265],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "pressure": {
+      "reading_kpa": 6,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 57367,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "trombone-dog",
+    "event_timestamp": "2021-06-05T22:01:59.017000+00:00",
+    "gps": {
+      "altitude": -27069,
+      "location": {
+        "coordinates": [-122.4726406, 48.4220744],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "reel": {
+      "run_speed_mmpm": 43849,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "whale-hemlock",
+    "event_timestamp": "2021-06-05T22:01:59.485000+00:00",
+    "gps": {
+      "altitude": -8145,
+      "location": {
+        "coordinates": [-122.3374966, 48.3736265],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "pressure": {
+      "reading_kpa": 6,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 57367,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "whale-hemlock",
+    "event_timestamp": "2021-06-05T22:02:16.381000+00:00",
+    "gps": {
+      "altitude": -8145,
+      "location": {
+        "coordinates": [-122.3374966, 48.3736265],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "pressure": {
+      "reading_kpa": 6,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 50407,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "whale-hemlock",
+    "event_timestamp": "2021-06-05T22:02:25.645000+00:00",
+    "gps": {
+      "altitude": -8145,
+      "location": {
+        "coordinates": [-122.3374966, 48.3736265],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "pressure": {
+      "reading_kpa": 6,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 50318,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "stewart-calico",
+    "event_timestamp": "2021-06-27T12:57:03.034000+00:00",
+    "gps": {
+      "altitude": 318,
+      "location": {
+        "coordinates": [-122.2133706, 48.5012523],
+        "type": "Point"
+      },
+      "n_sats": 14
+    },
+    "pressure": {
+      "reading_kpa": 120,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 790,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T12:57:06.466000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 29886,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T12:57:22.765000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 39241,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "connor-pizza",
+    "event_timestamp": "2021-06-27T12:57:24.548000+00:00",
+    "gps": {
+      "altitude": -28786,
+      "location": {
+        "coordinates": [-122.3561129, 48.5038002],
+        "type": "Point"
+      },
+      "n_sats": 4
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T12:57:37.645000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 39287,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T12:57:52.799000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 38800,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "campbell-hawthorn",
+    "event_timestamp": "2021-06-27T12:57:58.461000+00:00",
+    "gps": {
+      "altitude": -11553,
+      "location": {
+        "coordinates": [-122.3419128, 48.3425901],
+        "type": "Point"
+      },
+      "n_sats": 11
+    },
+    "pressure": {
+      "reading_kpa": 130,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 827,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T12:58:06.878000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 42369,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T12:58:21.018000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 41311,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T12:58:34.845000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 42267,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T12:58:48.905000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 42479,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T12:59:02.885000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 41854,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T12:59:17.260000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 42065,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T12:59:30.061000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 42479,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T12:59:43.115000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 38266,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T12:59:56.765000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 22665,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "bear-elm",
+    "event_timestamp": "2021-06-27T13:00:06.440000+00:00",
+    "gps": {
+      "altitude": -18203,
+      "location": {
+        "coordinates": [-122.3770097, 48.3338967],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 117,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 586,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T13:00:10.383000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 40995,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T13:00:22.941000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 41156,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T13:00:36.638000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 40471,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T13:00:49.279000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 42026,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "trombone-dog",
+    "event_timestamp": "2021-06-05T22:12:18.498000+00:00",
+    "gps": {
+      "altitude": -27069,
+      "location": {
+        "coordinates": [-122.4726406, 48.4220744],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "flatbread-cougar",
+    "event_timestamp": "2021-06-05T22:16:49.492000+00:00",
+    "gps": {
+      "altitude": -7189,
+      "location": {
+        "coordinates": [-122.2967046, 48.5075731],
+        "type": "Point"
+      },
+      "n_sats": 17
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T13:01:02.278000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 41587,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T13:01:15.421000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 40522,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T13:01:28.621000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 41046,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "guava-dragonfly",
+    "event_timestamp": "2021-06-27T13:01:41.839000+00:00",
+    "gps": {
+      "altitude": -17147,
+      "location": {
+        "coordinates": [-122.4063003, 48.5107965],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "pressure": {
+      "reading_kpa": 128,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 497,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T13:01:42.584000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 41638,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "whale-hemlock",
+    "event_timestamp": "2021-06-27T13:01:44.845000+00:00",
+    "gps": {
+      "altitude": -16971,
+      "location": {
+        "coordinates": [-122.3346885, 48.343702],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "pressure": {
+      "reading_kpa": 115,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 633,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T13:01:53.806000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 44756,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T13:02:06.330000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 44570,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T13:02:18.160000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 40396,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T13:02:30.365000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 39456,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "banjo-wizard",
+    "event_timestamp": "2021-06-27T13:02:36.851000+00:00",
+    "gps": {
+      "altitude": -7105,
+      "location": {
+        "coordinates": [-122.2116028, 48.5016721],
+        "type": "Point"
+      },
+      "n_sats": 16
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T13:02:42.701000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 37075,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "jester-burrito",
+    "event_timestamp": "2021-06-27T13:07:32.359000+00:00",
+    "gps": {
+      "altitude": -7734,
+      "location": {
+        "coordinates": [-122.3784771, 48.3345143],
+        "type": "Point"
+      },
+      "n_sats": 17
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:07:35.878000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 36592,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "jester-burrito",
+    "event_timestamp": "2021-06-27T13:07:37.651000+00:00",
+    "gps": {
+      "altitude": -7734,
+      "location": {
+        "coordinates": [-122.3784771, 48.3345143],
+        "type": "Point"
+      },
+      "n_sats": 17
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:07:49.896000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 37392,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T13:07:59.043000+00:00",
+    "gps": {
+      "altitude": -15267,
+      "location": {
+        "coordinates": [-122.3409967, 48.3441887],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "pressure": {
+      "reading_kpa": 69,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:08:03.896000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 36149,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:08:17.717000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 40810,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:08:31.317000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 34964,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "bobcat_ranger",
+    "event_timestamp": "2021-06-27T13:08:32.358000+00:00",
+    "gps": {
+      "altitude": -22354,
+      "location": {
+        "coordinates": [-122.3920527, 48.4981158],
+        "type": "Point"
+      },
+      "n_sats": 16
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:08:44.296000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 37484,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "raptor-puppy",
+    "event_timestamp": "2021-06-27T13:08:46.517000+00:00",
+    "gps": {
+      "altitude": -12156,
+      "location": {
+        "coordinates": [-122.3577212, 48.4923659],
+        "type": "Point"
+      },
+      "n_sats": 16
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:08:57.182000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 36876,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:09:10.456000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 37342,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T13:09:17.937000+00:00",
+    "gps": {
+      "altitude": -12511,
+      "location": {
+        "coordinates": [-122.3409999, 48.3441889],
+        "type": "Point"
+      },
+      "n_sats": 14
+    },
+    "pressure": {
+      "reading_kpa": 122,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 1294,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:09:22.872000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 38313,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "hunter-laser",
+    "event_timestamp": "2021-06-27T13:09:23.997000+00:00",
+    "gps": {
+      "altitude": -13212,
+      "location": {
+        "coordinates": [-122.400175, 48.5004907],
+        "type": "Point"
+      },
+      "n_sats": 18
+    }
+  },
+  {
+    "device_alias": "campbell-hawthorn",
+    "event_timestamp": "2021-06-27T13:09:35.501000+00:00",
+    "gps": {
+      "altitude": -14559,
+      "location": {
+        "coordinates": [-122.3419007, 48.3425887],
+        "type": "Point"
+      },
+      "n_sats": 11
+    },
+    "pressure": {
+      "reading_kpa": 127,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 454,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "mouse-driver",
+    "event_timestamp": "2021-07-04T23:29:39.537000+00:00",
+    "gps": {
+      "altitude": -21431,
+      "location": {
+        "coordinates": [-122.4769486, 48.3882548],
+        "type": "Point"
+      },
+      "n_sats": 20
+    }
+  },
+  {
+    "device_alias": "trombone-dog",
+    "event_timestamp": "2021-06-05T22:23:37.514000+00:00",
+    "gps": {
+      "altitude": -27069,
+      "location": {
+        "coordinates": [-122.4726406, 48.4220744],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "reel": {
+      "run_speed_mmpm": 790441,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "turtle-pilot",
+    "event_timestamp": "2021-06-27T13:02:42.916000+00:00",
+    "gps": {
+      "altitude": -21887,
+      "location": {
+        "coordinates": [-122.3872722, 48.3782785],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "reel": {
+      "run_speed_mmpm": 402,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T13:02:54.941000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 37222,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T13:03:08.308000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 21669,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T13:03:20.168000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 38408,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T13:03:34.168000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 33509,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "pine-bread",
+    "event_timestamp": "2021-06-27T13:03:46.798000+00:00",
+    "gps": {
+      "altitude": -1811,
+      "location": {
+        "coordinates": [-122.4655254, 48.3788954],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "reel": {
+      "run_speed_mmpm": 443,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:05:02.780000+00:00",
+    "gps": {
+      "altitude": -15698,
+      "location": {
+        "coordinates": [-122.4132669, 48.5050926],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "malta-apple",
+    "event_timestamp": "2021-06-27T13:05:20.283000+00:00",
+    "gps": {
+      "altitude": -4306,
+      "location": {
+        "coordinates": [-122.1393589, 48.1939895],
+        "type": "Point"
+      },
+      "n_sats": 11
+    },
+    "pressure": {
+      "reading_kpa": 2,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "kiwi-raccoon",
+    "event_timestamp": "2021-06-27T13:05:27.908000+00:00",
+    "gps": {
+      "altitude": 23652,
+      "location": {
+        "coordinates": [-122.2747549, 48.5023805],
+        "type": "Point"
+      },
+      "n_sats": 14
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "liam-pinecone",
+    "event_timestamp": "2021-06-27T13:05:45.648000+00:00",
+    "gps": {
+      "altitude": -2893,
+      "location": {
+        "coordinates": [-122.2740949, 48.5027559],
+        "type": "Point"
+      },
+      "n_sats": 17
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:05:54.957000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 24836,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "turtle-raptor",
+    "event_timestamp": "2021-06-27T13:06:03.348000+00:00",
+    "gps": {
+      "altitude": -13792,
+      "location": {
+        "coordinates": [-122.4056686, 48.5106824],
+        "type": "Point"
+      },
+      "n_sats": 15
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:06:09.718000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 32001,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "raccoon-lawyer",
+    "event_timestamp": "2021-06-27T13:06:17.651000+00:00",
+    "gps": {
+      "altitude": -10154,
+      "location": {
+        "coordinates": [-122.3881713, 48.3749486],
+        "type": "Point"
+      },
+      "n_sats": 14
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:06:25.646000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 33236,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "stewart-calico",
+    "event_timestamp": "2021-06-27T13:06:32.928000+00:00",
+    "gps": {
+      "altitude": 377,
+      "location": {
+        "coordinates": [-122.2133634, 48.501263],
+        "type": "Point"
+      },
+      "n_sats": 16
+    },
+    "pressure": {
+      "reading_kpa": 120,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 588,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:06:40.426000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 37871,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T13:06:47.325000+00:00",
+    "gps": {
+      "altitude": -16945,
+      "location": {
+        "coordinates": [-122.3410247, 48.3441802],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:06:54.136000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 37740,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:07:08.115000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 38088,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:07:21.957000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 38862,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "trombone-dog",
+    "event_timestamp": "2021-06-05T22:23:37.728000+00:00",
+    "gps": {
+      "altitude": -27069,
+      "location": {
+        "coordinates": [-122.4726406, 48.4220744],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "reel": {
+      "run_speed_mmpm": 8299695,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "banjo-wizard",
+    "event_timestamp": "2021-06-05T22:31:13.976000+00:00",
+    "gps": {
+      "altitude": -9691,
+      "location": {
+        "coordinates": [-122.2856021, 48.5184219],
+        "type": "Point"
+      },
+      "n_sats": 17
+    }
+  },
+  {
+    "device_alias": "bear-elm",
+    "event_timestamp": "2021-06-27T13:07:22.656000+00:00",
+    "gps": {
+      "altitude": -11043,
+      "location": {
+        "coordinates": [-122.3770335, 48.3338808],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "pressure": {
+      "reading_kpa": 119,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "jester-burrito",
+    "event_timestamp": "2021-06-27T13:07:26.517000+00:00",
+    "gps": {
+      "altitude": -7734,
+      "location": {
+        "coordinates": [-122.3784771, 48.3345143],
+        "type": "Point"
+      },
+      "n_sats": 17
+    }
+  },
+  {
+    "device_alias": "bear-elm",
+    "event_timestamp": "2021-06-27T13:07:31.958000+00:00",
+    "gps": {
+      "altitude": -11043,
+      "location": {
+        "coordinates": [-122.3770335, 48.3338808],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "pressure": {
+      "reading_kpa": 58,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:09:35.734000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 37113,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:09:48.856000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 37966,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:10:01.332000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 37673,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:10:12.917000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 45706,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:10:23.157000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 47080,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:10:33.497000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 46859,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:10:43.717000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 48075,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:10:54.037000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 42060,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:11:03.257000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 46384,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:11:12.518000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 47123,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:11:21.966000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 46299,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:11:31.456000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 47037,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "panda-plumber",
+    "event_timestamp": "2021-06-27T13:11:36.037000+00:00",
+    "gps": {
+      "altitude": -19564,
+      "location": {
+        "coordinates": [-122.4766782, 48.4045909],
+        "type": "Point"
+      },
+      "n_sats": 18
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:11:41.343000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 46299,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:11:50.296000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 47123,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "kiwi-raccoon",
+    "event_timestamp": "2021-07-04T23:29:43.092000+00:00",
+    "gps": {
+      "altitude": 7029,
+      "location": {
+        "coordinates": [-122.2748656, 48.5029747],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "trombone-dog",
+    "event_timestamp": "2021-06-05T22:23:37.937000+00:00",
+    "gps": {
+      "altitude": -27069,
+      "location": {
+        "coordinates": [-122.4726406, 48.4220744],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "reel": {
+      "run_speed_mmpm": 5533130,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "connor-pizza",
+    "event_timestamp": "2021-06-05T22:23:50.876000+00:00",
+    "gps": {
+      "altitude": 5812,
+      "location": {
+        "coordinates": [-122.3570291, 48.5064622],
+        "type": "Point"
+      },
+      "n_sats": 0
+    }
+  },
+  {
+    "device_alias": "trombone-dog",
+    "event_timestamp": "2021-06-05T22:26:35.604000+00:00",
+    "gps": {
+      "altitude": -27069,
+      "location": {
+        "coordinates": [-122.4726406, 48.4220744],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "power-mighty",
+    "event_timestamp": "2021-06-05T22:27:14.195000+00:00",
+    "gps": {
+      "altitude": -18077,
+      "location": {
+        "coordinates": [-122.3355633, 48.3810921],
+        "type": "Point"
+      },
+      "n_sats": 18
+    }
+  },
+  {
+    "device_alias": "cat-director",
+    "event_timestamp": "2021-06-05T22:28:56.464000+00:00",
+    "gps": {
+      "altitude": -13710,
+      "location": {
+        "coordinates": [-122.4064411, 48.4951314],
+        "type": "Point"
+      },
+      "n_sats": 10
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "guava-dragonfly",
+    "event_timestamp": "2021-06-27T13:11:58.698000+00:00",
+    "gps": {
+      "altitude": -21330,
+      "location": {
+        "coordinates": [-122.4063185, 48.5107751],
+        "type": "Point"
+      },
+      "n_sats": 9
+    },
+    "pressure": {
+      "reading_kpa": 127,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 497,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:11:59.847000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 45589,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "puffin-carrot",
+    "event_timestamp": "2021-06-27T13:12:05.190000+00:00",
+    "gps": {
+      "altitude": -12672,
+      "location": {
+        "coordinates": [-122.3452376, 48.5123553],
+        "type": "Point"
+      },
+      "n_sats": 8
+    },
+    "pressure": {
+      "reading_kpa": 99,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 451,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:12:09.416000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 46540,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:12:18.856000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 47037,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:12:28.457000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 45589,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "paraclete",
+    "event_timestamp": "2021-03-20T23:02:26.863000+00:00"
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:12:38.166000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 45745,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "paraclete",
+    "event_timestamp": "2021-03-20T23:03:28.322000+00:00",
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "paraclete",
+    "event_timestamp": "2021-03-20T23:05:07.676000+00:00",
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "paraclete",
+    "event_timestamp": "2021-03-20T23:05:10.897000+00:00",
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "paraclete",
+    "event_timestamp": "2021-03-20T23:05:27.521000+00:00",
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "paraclete",
+    "event_timestamp": "2021-03-20T23:05:30.891000+00:00",
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "paraclete",
+    "event_timestamp": "2021-03-20T23:05:34.812000+00:00",
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "paraclete",
+    "event_timestamp": "2021-03-20T23:05:38.334000+00:00",
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "paraclete",
+    "event_timestamp": "2021-03-20T23:05:40.558000+00:00",
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "paraclete",
+    "event_timestamp": "2021-03-20T23:05:43.847000+00:00",
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "paraclete",
+    "event_timestamp": "2021-03-20T23:06:03.164000+00:00"
+  },
+  {
+    "device_alias": "paraclete",
+    "event_timestamp": "2021-03-20T23:06:05.584000+00:00"
+  },
+  {
+    "device_alias": "trombone-dog",
+    "event_timestamp": "2021-06-05T22:23:38.018000+00:00",
+    "gps": {
+      "altitude": -27069,
+      "location": {
+        "coordinates": [-122.4726406, 48.4220744],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "reel": {
+      "run_speed_mmpm": 6639756,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "vashon-sumac",
+    "event_timestamp": "2021-06-05T22:23:50.897000+00:00",
+    "gps": {
+      "altitude": 271811,
+      "location": {
+        "coordinates": [-85.104976, 43.4918065],
+        "type": "Point"
+      },
+      "n_sats": 16
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:12:47.192000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 44335,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "puffin-maple",
+    "event_timestamp": "2021-06-27T13:12:51.983000+00:00",
+    "gps": {
+      "altitude": -2276,
+      "location": {
+        "coordinates": [-122.323384, 48.3423483],
+        "type": "Point"
+      },
+      "n_sats": 11
+    },
+    "pressure": {
+      "reading_kpa": 115,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 602,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:12:55.816000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 44171,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:13:04.437000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 44757,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "trombone-dog",
+    "event_timestamp": "2021-06-27T13:13:06.998000+00:00",
+    "gps": {
+      "altitude": -18786,
+      "location": {
+        "coordinates": [-122.4654968, 48.3782632],
+        "type": "Point"
+      },
+      "n_sats": 10
+    },
+    "reel": {
+      "run_speed_mmpm": 451,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:13:13.657000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 44417,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "paraclete",
+    "event_timestamp": "2021-03-20T23:06:15.642000+00:00"
+  },
+  {
+    "device_alias": "paraclete",
+    "event_timestamp": "2021-03-20T23:06:16.467000+00:00"
+  },
+  {
+    "device_alias": "paraclete",
+    "event_timestamp": "2021-03-20T23:06:18.886000+00:00"
+  },
+  {
+    "device_alias": "paraclete",
+    "event_timestamp": "2021-03-20T23:06:36.776000+00:00"
+  },
+  {
+    "device_alias": "paraclete",
+    "event_timestamp": "2021-03-20T23:06:39.895000+00:00"
+  },
+  {
+    "device_alias": "paraclete",
+    "event_timestamp": "2021-03-20T23:06:52.643000+00:00"
+  },
+  {
+    "device_alias": "paraclete",
+    "event_timestamp": "2021-03-20T23:07:04.451000+00:00",
+    "gps": {
+      "altitude": -18000,
+      "location": {
+        "coordinates": [-122.8126295, 48.5168391],
+        "type": "Point"
+      },
+      "n_sats": 0
+    }
+  },
+  {
+    "device_alias": "paraclete",
+    "event_timestamp": "2021-03-20T23:08:31.983000+00:00",
+    "gps": {
+      "altitude": -18000,
+      "location": {
+        "coordinates": [-122.8126295, 48.5168391],
+        "type": "Point"
+      },
+      "n_sats": 0
+    }
+  },
+  {
+    "device_alias": "turtle-raptor",
+    "event_timestamp": "2021-06-05T22:42:37.738000+00:00",
+    "gps": {
+      "altitude": -15611,
+      "location": {
+        "coordinates": [-122.4057133, 48.5106601],
+        "type": "Point"
+      },
+      "n_sats": 17
+    }
+  },
+  {
+    "device_alias": "whale-hemlock",
+    "event_timestamp": "2021-06-05T22:42:46.845000+00:00",
+    "gps": {
+      "altitude": -8145,
+      "location": {
+        "coordinates": [-122.3374966, 48.3736265],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "pressure": {
+      "reading_kpa": 5,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "lynx-calzone",
+    "event_timestamp": "2021-06-05T22:44:11.476000+00:00",
+    "gps": {
+      "altitude": -9059,
+      "location": {
+        "coordinates": [-122.2967402, 48.5090357],
+        "type": "Point"
+      },
+      "n_sats": 14
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "pizza-badger",
+    "event_timestamp": "2021-06-05T22:47:26.516000+00:00",
+    "gps": {
+      "altitude": -57,
+      "location": {
+        "coordinates": [-122.2839743, 48.5184653],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:13:21.717000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 47933,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:13:30.446000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 44927,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "jetpack_easter",
+    "event_timestamp": "2021-06-27T13:13:36.846000+00:00",
+    "gps": {
+      "altitude": -27409,
+      "location": {
+        "coordinates": [-122.3550608, 48.5047696],
+        "type": "Point"
+      },
+      "n_sats": 7
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:13:39.159000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 44007,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:13:47.657000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 45009,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:13:56.277000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 44505,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:14:04.936000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 45444,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:14:13.558000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 44253,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:14:22.799000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 44839,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:14:30.278000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 42123,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:14:38.446000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 39387,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:14:47.494000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 35958,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:14:56.503000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 35958,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "connor-pizza",
+    "event_timestamp": "2021-07-30T17:39:50.120000+00:00"
+  },
+  {
+    "device_alias": "campbell-hawthorn",
+    "event_timestamp": "2021-06-27T13:15:02.560000+00:00",
+    "gps": {
+      "altitude": -8461,
+      "location": {
+        "coordinates": [-122.3419276, 48.3425707],
+        "type": "Point"
+      },
+      "n_sats": 10
+    },
+    "pressure": {
+      "reading_kpa": 57,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 756,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:15:05.578000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 35831,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "whale-hemlock",
+    "event_timestamp": "2021-06-27T13:15:08.461000+00:00",
+    "gps": {
+      "altitude": -26723,
+      "location": {
+        "coordinates": [-122.3347263, 48.3437029],
+        "type": "Point"
+      },
+      "n_sats": 17
+    },
+    "pressure": {
+      "reading_kpa": 115,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 685,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:15:17.200000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 28313,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-05T22:59:42.768000+00:00",
+    "gps": {
+      "altitude": -11383,
+      "location": {
+        "coordinates": [-122.3863029, 48.5067947],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "trombone-dog",
+    "event_timestamp": "2021-06-05T23:00:11.641000+00:00",
+    "gps": {
+      "altitude": -27069,
+      "location": {
+        "coordinates": [-122.4726406, 48.4220744],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "reel": {
+      "run_speed_mmpm": 3027710,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:15:29.337000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 28082,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:15:41.080000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 22214,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "lummi-madrone",
+    "event_timestamp": "2021-06-27T13:16:04.446000+00:00",
+    "gps": {
+      "altitude": -28112,
+      "location": {
+        "coordinates": [-122.3452909, 48.5129501],
+        "type": "Point"
+      },
+      "n_sats": 11
+    },
+    "pressure": {
+      "reading_kpa": 96,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 481,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "campbell-hawthorn",
+    "event_timestamp": "2021-06-27T13:17:07.378000+00:00",
+    "gps": {
+      "altitude": -14830,
+      "location": {
+        "coordinates": [-122.3418765, 48.3426047],
+        "type": "Point"
+      },
+      "n_sats": 11
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "angus-dog",
+    "event_timestamp": "2021-06-27T13:17:28.755000+00:00",
+    "gps": {
+      "altitude": -12450,
+      "location": {
+        "coordinates": [-122.3933012, 48.4948833],
+        "type": "Point"
+      },
+      "n_sats": 11
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "angus-dog",
+    "event_timestamp": "2021-06-27T13:17:28.755000+00:00"
+  },
+  {
+    "device_alias": "cat-director",
+    "event_timestamp": "2021-06-27T13:17:36.528000+00:00",
+    "gps": {
+      "altitude": -11751,
+      "location": {
+        "coordinates": [-122.4152197, 48.5051658],
+        "type": "Point"
+      },
+      "n_sats": 14
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:18:34.936000+00:00",
+    "gps": {
+      "altitude": -15084,
+      "location": {
+        "coordinates": [-122.4132529, 48.505089],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "turtle-pilot",
+    "event_timestamp": "2021-06-27T13:21:01.236000+00:00",
+    "gps": {
+      "altitude": -17871,
+      "location": {
+        "coordinates": [-122.3871968, 48.3782107],
+        "type": "Point"
+      },
+      "n_sats": 14
+    },
+    "reel": {
+      "run_speed_mmpm": 402,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "stewart-calico",
+    "event_timestamp": "2021-06-27T13:21:19.452000+00:00",
+    "gps": {
+      "altitude": -412,
+      "location": {
+        "coordinates": [-122.2134163, 48.501223],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "pressure": {
+      "reading_kpa": 119,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 614,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "pine-bread",
+    "event_timestamp": "2021-06-27T13:21:29.880000+00:00",
+    "gps": {
+      "altitude": -16954,
+      "location": {
+        "coordinates": [-122.4654688, 48.3788938],
+        "type": "Point"
+      },
+      "n_sats": 14
+    },
+    "reel": {
+      "run_speed_mmpm": 443,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "guava-dragonfly",
+    "event_timestamp": "2021-06-27T13:22:16.767000+00:00",
+    "gps": {
+      "altitude": -20943,
+      "location": {
+        "coordinates": [-122.406326, 48.5107956],
+        "type": "Point"
+      },
+      "n_sats": 10
+    },
+    "pressure": {
+      "reading_kpa": 128,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 497,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "buffalo-ninja",
+    "event_timestamp": "2021-06-27T13:23:23.846000+00:00",
+    "gps": {
+      "altitude": -17025,
+      "location": {
+        "coordinates": [-122.4546837, 48.4107645],
+        "type": "Point"
+      },
+      "n_sats": 17
+    }
+  },
+  {
+    "device_alias": "buffalo-ninja",
+    "event_timestamp": "2021-06-27T13:23:30.918000+00:00",
+    "gps": {
+      "altitude": -17025,
+      "location": {
+        "coordinates": [-122.4546837, 48.4107645],
+        "type": "Point"
+      },
+      "n_sats": 17
+    }
+  },
+  {
+    "device_alias": "buffalo-ninja",
+    "event_timestamp": "2021-06-27T13:24:13.413000+00:00",
+    "gps": {
+      "altitude": -17025,
+      "location": {
+        "coordinates": [-122.4546837, 48.4107645],
+        "type": "Point"
+      },
+      "n_sats": 17
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:24:36.617000+00:00",
+    "gps": {
+      "altitude": -14956,
+      "location": {
+        "coordinates": [-122.4133078, 48.505112],
+        "type": "Point"
+      },
+      "n_sats": 14
+    },
+    "reel": {
+      "run_speed_mmpm": 534,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "buffalo-ninja",
+    "event_timestamp": "2021-06-27T13:25:11.734000+00:00",
+    "gps": {
+      "altitude": -16792,
+      "location": {
+        "coordinates": [-122.454671, 48.4107665],
+        "type": "Point"
+      },
+      "n_sats": 16
+    }
+  },
+  {
+    "device_alias": "happy-raptor",
+    "event_timestamp": "2021-06-27T13:25:53.156000+00:00",
+    "gps": {
+      "altitude": -9294,
+      "location": {
+        "coordinates": [-122.3350199, 48.3638915],
+        "type": "Point"
+      },
+      "n_sats": 16
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T13:28:16.730000+00:00",
+    "gps": {
+      "altitude": -24132,
+      "location": {
+        "coordinates": [-122.3409746, 48.3442085],
+        "type": "Point"
+      },
+      "n_sats": 14
+    },
+    "pressure": {
+      "reading_kpa": 125,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 616,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "mr_argon",
+    "event_timestamp": "2021-03-20T23:37:40.787000+00:00"
+  },
+  {
+    "device_alias": "mr_argon",
+    "event_timestamp": "2021-03-20T23:42:41.972000+00:00"
+  },
+  {
+    "device_alias": "mr_argon",
+    "event_timestamp": "2021-03-20T23:47:42.711000+00:00"
+  },
+  {
+    "device_alias": "mr_argon",
+    "event_timestamp": "2021-03-20T23:52:43.799000+00:00"
+  },
+  {
+    "device_alias": "trombone-dog",
+    "event_timestamp": "2021-06-05T23:00:11.601000+00:00",
+    "gps": {
+      "altitude": -27069,
+      "location": {
+        "coordinates": [-122.4726406, 48.4220744],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "reel": {
+      "run_speed_mmpm": 3027710,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "trombone-dog",
+    "event_timestamp": "2021-06-05T23:03:05.049000+00:00",
+    "gps": {
+      "altitude": -27069,
+      "location": {
+        "coordinates": [-122.4726406, 48.4220744],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "trombone-dog",
+    "event_timestamp": "2021-06-05T23:10:21.150000+00:00",
+    "gps": {
+      "altitude": -27069,
+      "location": {
+        "coordinates": [-122.4726406, 48.4220744],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "reel": {
+      "run_speed_mmpm": 12110840,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "trombone-dog",
+    "event_timestamp": "2021-06-05T23:20:21.240000+00:00",
+    "gps": {
+      "altitude": -27069,
+      "location": {
+        "coordinates": [-122.4726406, 48.4220744],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "reel": {
+      "run_speed_mmpm": 8299695,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "trombone-dog",
+    "event_timestamp": "2021-06-05T23:20:24.584000+00:00",
+    "gps": {
+      "altitude": -27069,
+      "location": {
+        "coordinates": [-122.4726406, 48.4220744],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "reel": {
+      "run_speed_mmpm": 11066260,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "trombone-dog",
+    "event_timestamp": "2021-06-05T23:20:25.679000+00:00",
+    "gps": {
+      "altitude": -27069,
+      "location": {
+        "coordinates": [-122.4726406, 48.4220744],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "reel": {
+      "run_speed_mmpm": 6639756,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "trombone-dog",
+    "event_timestamp": "2021-06-05T23:20:26.423000+00:00",
+    "gps": {
+      "altitude": -27069,
+      "location": {
+        "coordinates": [-122.4726406, 48.4220744],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "reel": {
+      "run_speed_mmpm": 2553748,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "trombone-dog",
+    "event_timestamp": "2021-06-05T23:20:27.456000+00:00",
+    "gps": {
+      "altitude": -27069,
+      "location": {
+        "coordinates": [-122.4726406, 48.4220744],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "reel": {
+      "run_speed_mmpm": 2157600,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "whale-hemlock",
+    "event_timestamp": "2021-06-27T13:29:02.231000+00:00",
+    "gps": {
+      "altitude": -18841,
+      "location": {
+        "coordinates": [-122.3346854, 48.3437025],
+        "type": "Point"
+      },
+      "n_sats": 19
+    },
+    "pressure": {
+      "reading_kpa": 105,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 631,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "power-mighty",
+    "event_timestamp": "2021-06-27T13:29:48.464000+00:00",
+    "gps": {
+      "altitude": -19616,
+      "location": {
+        "coordinates": [-122.3221331, 48.3427124],
+        "type": "Point"
+      },
+      "n_sats": 11
+    }
+  },
+  {
+    "device_alias": "puffin-maple",
+    "event_timestamp": "2021-06-27T13:30:09.476000+00:00",
+    "gps": {
+      "altitude": -21708,
+      "location": {
+        "coordinates": [-122.3234071, 48.3421168],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "pressure": {
+      "reading_kpa": 105,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 658,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "trombone-dog",
+    "event_timestamp": "2021-06-27T13:30:32.678000+00:00",
+    "gps": {
+      "altitude": -27013,
+      "location": {
+        "coordinates": [-122.4654602, 48.37827],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 443,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "guava-dragonfly",
+    "event_timestamp": "2021-06-27T13:32:31.326000+00:00",
+    "gps": {
+      "altitude": -15801,
+      "location": {
+        "coordinates": [-122.4062765, 48.5107965],
+        "type": "Point"
+      },
+      "n_sats": 11
+    },
+    "pressure": {
+      "reading_kpa": 127,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 558,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "monkey-wizard",
+    "event_timestamp": "2021-06-27T13:33:01.957000+00:00",
+    "gps": {
+      "altitude": -15671,
+      "location": {
+        "coordinates": [-122.4133241, 48.5050778],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 798,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "puffin-maple",
+    "event_timestamp": "2021-06-27T13:33:38.038000+00:00",
+    "gps": {
+      "altitude": -18576,
+      "location": {
+        "coordinates": [-122.3234178, 48.3421663],
+        "type": "Point"
+      },
+      "n_sats": 14
+    },
+    "pressure": {
+      "reading_kpa": 59,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 583,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "puffin-maple",
+    "event_timestamp": "2021-06-27T13:34:11.964000+00:00",
+    "gps": {
+      "altitude": -18576,
+      "location": {
+        "coordinates": [-122.3234178, 48.3421663],
+        "type": "Point"
+      },
+      "n_sats": 14
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "jester-burrito",
+    "event_timestamp": "2021-06-27T13:34:21.651000+00:00",
+    "gps": {
+      "altitude": -9625,
+      "location": {
+        "coordinates": [-122.3784861, 48.3345631],
+        "type": "Point"
+      },
+      "n_sats": 18
+    }
+  },
+  {
+    "device_alias": "dog-lawyer",
+    "event_timestamp": "2021-06-27T13:34:32.116000+00:00",
+    "gps": {
+      "altitude": -11992,
+      "location": {
+        "coordinates": [-122.3922035, 48.5282579],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "morphing-burrito",
+    "event_timestamp": "2021-06-27T13:35:00.275000+00:00",
+    "gps": {
+      "altitude": -23265,
+      "location": {
+        "coordinates": [-122.3924736, 48.527469],
+        "type": "Point"
+      },
+      "n_sats": 15
+    }
+  },
+  {
+    "device_alias": "stewart-calico",
+    "event_timestamp": "2021-06-27T13:35:08.407000+00:00",
+    "gps": {
+      "altitude": -4941,
+      "location": {
+        "coordinates": [-122.2133426, 48.5012614],
+        "type": "Point"
+      },
+      "n_sats": 16
+    },
+    "pressure": {
+      "reading_kpa": 118,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 614,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "connor-pizza",
+    "event_timestamp": "2021-07-30T22:40:48.193000+00:00"
+  },
+  {
+    "device_alias": "mr_argon",
+    "event_timestamp": "2021-03-20T23:58:14.871000+00:00"
+  },
+  {
+    "device_alias": "mr_argon",
+    "event_timestamp": "2021-03-21T00:03:15.075000+00:00"
+  },
+  {
+    "device_alias": "trombone-dog",
+    "event_timestamp": "2021-06-05T23:10:21.070000+00:00",
+    "gps": {
+      "altitude": -27069,
+      "location": {
+        "coordinates": [-122.4726406, 48.4220744],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "reel": {
+      "run_speed_mmpm": 8073893,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "puffin-carrot",
+    "event_timestamp": "2021-06-27T13:35:16.286000+00:00",
+    "gps": {
+      "altitude": -22626,
+      "location": {
+        "coordinates": [-122.3452379, 48.512399],
+        "type": "Point"
+      },
+      "n_sats": 8
+    },
+    "pressure": {
+      "reading_kpa": 99,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 501,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "lummi-madrone",
+    "event_timestamp": "2021-06-27T13:37:13.886000+00:00",
+    "gps": {
+      "altitude": -17042,
+      "location": {
+        "coordinates": [-122.3452569, 48.5129008],
+        "type": "Point"
+      },
+      "n_sats": 11
+    },
+    "pressure": {
+      "reading_kpa": 96,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 501,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "potato-bobcat",
+    "event_timestamp": "2021-06-27T13:37:49.518000+00:00",
+    "gps": {
+      "altitude": -12374,
+      "location": {
+        "coordinates": [-122.3230556, 48.3705106],
+        "type": "Point"
+      },
+      "n_sats": 14
+    },
+    "pressure": {
+      "reading_kpa": 0,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "pine-bread",
+    "event_timestamp": "2021-06-27T13:39:10.772000+00:00",
+    "gps": {
+      "altitude": -7207,
+      "location": {
+        "coordinates": [-122.4654176, 48.3789381],
+        "type": "Point"
+      },
+      "n_sats": 15
+    },
+    "reel": {
+      "run_speed_mmpm": 443,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "nob-apricot",
+    "event_timestamp": "2021-06-27T13:39:31.004000+00:00",
+    "gps": {
+      "altitude": -11583,
+      "location": {
+        "coordinates": [-122.1732684, 48.1851138],
+        "type": "Point"
+      },
+      "n_sats": 13
+    },
+    "pressure": {
+      "reading_kpa": 3,
+      "state_current": "PLO"
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  },
+  {
+    "device_alias": "cat-director",
+    "event_timestamp": "2021-06-27T13:41:02.998000+00:00",
+    "gps": {
+      "altitude": -25021,
+      "location": {
+        "coordinates": [-122.4119889, 48.4980809],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "reel": {
+      "run_speed_mmpm": 31609,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "falcon-berry",
+    "event_timestamp": "2021-06-27T13:41:09.725000+00:00",
+    "gps": {
+      "altitude": -23180,
+      "location": {
+        "coordinates": [-122.34097, 48.3442138],
+        "type": "Point"
+      },
+      "n_sats": 14
+    },
+    "pressure": {
+      "reading_kpa": 125,
+      "state_current": "PHI"
+    },
+    "reel": {
+      "run_speed_mmpm": 639,
+      "state_current": "RR"
+    }
+  },
+  {
+    "device_alias": "cat-director",
+    "event_timestamp": "2021-06-27T13:41:18.877000+00:00",
+    "gps": {
+      "altitude": -25021,
+      "location": {
+        "coordinates": [-122.4119889, 48.4980809],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "reel": {
+      "run_speed_mmpm": 32292,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "cat-director",
+    "event_timestamp": "2021-06-27T13:41:33.155000+00:00",
+    "gps": {
+      "altitude": -25021,
+      "location": {
+        "coordinates": [-122.4119889, 48.4980809],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "reel": {
+      "run_speed_mmpm": 34810,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "cat-director",
+    "event_timestamp": "2021-06-27T13:41:47.475000+00:00",
+    "gps": {
+      "altitude": -25021,
+      "location": {
+        "coordinates": [-122.4119889, 48.4980809],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "reel": {
+      "run_speed_mmpm": 35327,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "cat-director",
+    "event_timestamp": "2021-06-27T13:42:01.847000+00:00",
+    "gps": {
+      "altitude": -25021,
+      "location": {
+        "coordinates": [-122.4119889, 48.4980809],
+        "type": "Point"
+      },
+      "n_sats": 18
+    },
+    "reel": {
+      "run_speed_mmpm": 34702,
+      "state_current": "RE"
+    }
+  },
+  {
+    "device_alias": "aardvark-boom",
+    "event_timestamp": "2021-06-27T13:42:08.931000+00:00",
+    "gps": {
+      "altitude": -22240,
+      "location": {
+        "coordinates": [-122.4509061, 48.4135295],
+        "type": "Point"
+      },
+      "n_sats": 12
+    },
+    "reel": {
+      "run_speed_mmpm": 0,
+      "state_current": "RS"
+    }
+  }
+]
