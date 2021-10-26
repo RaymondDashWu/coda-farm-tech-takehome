@@ -14,11 +14,13 @@ export interface DeviceEventsState {
   entities: { [id: number]: DeviceEvent };
   selectedId?: number;
   status?: "pending" | "fulfilled" | "rejected";
+  mostRecentEvents: { [name: string]: DeviceEvent };
 }
 
 const initialState: DeviceEventsState = {
   ids: [],
   entities: [],
+  mostRecentEvents: {},
 };
 
 // The function below is called a thunk and allows us to perform async logic. It
@@ -59,6 +61,7 @@ export const deviceEvents = createSlice({
         const initializer: DeviceEventsState = {
           ids: [],
           entities: {},
+          mostRecentEvents: {},
         };
         const nextState = action.payload.reduce((accumulator, deviceEvent) => {
           return {
@@ -70,10 +73,19 @@ export const deviceEvents = createSlice({
                 ...deviceEvent,
               },
             },
+            mostRecentEvents: {
+              ...accumulator.mostRecentEvents,
+              [deviceEvent.device_alias]: {
+                ...deviceEvent
+                // TODO doesn't compare timestamps. Object is possibly 'undefined'.
+                // ...((deviceEvent.event_timestamp > accumulator.mostRecentEvents[deviceEvent.device_alias].event_timestamp) && deviceEvent)
+              }
+            }
           };
         }, initializer);
         state.ids = nextState.ids;
         state.entities = nextState.entities;
+        state.mostRecentEvents = nextState.mostRecentEvents;
       })
       .addCase(fetchDeviceEvents.rejected, (state) => {
         state.status = "rejected";

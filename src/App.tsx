@@ -89,7 +89,7 @@ function mapStateToProps(state: RootState): {
       }
     });
   }
-
+  console.log("state", state)
   return {
     deviceEvents: getAllDeviceEvents(state),
     fieldIds: state.fields.ids,
