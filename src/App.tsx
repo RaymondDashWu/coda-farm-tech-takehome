@@ -37,6 +37,25 @@ const MAP_OPTIONS: google.maps.MapOptions = {
 };
 
 /**
+ * Formats the status of device into a human readable format after a field is clicked
+ *
+ * @param {DeviceEvent} fieldData - Contains DeviceEvents, Field Info, etc.
+ * @param {string} keyName - String of requested field
+ * 
+ * @returns {string} - All DeviceEvents inside of fieldName's polygons
+ */
+function formatFieldCardMessage(fieldData: DeviceEvent, keyName: String) {
+  if (fieldData.mostRecentEvents[keyName].reel) {
+    return `Reel Status ${fieldData.mostRecentEvents[keyName].reel.state_current} Run speed ${fieldData.mostRecentEvents[keyName].reel.run_speed_mmpm}`
+  }
+  if (fieldData.mostRecentEvents[keyName].pressure) {
+    return `Pump Status ${fieldData.mostRecentEvents[keyName].pressure.state_current} KPA ${fieldData.mostRecentEvents[keyName].pressure.reading_kpa}`
+
+  }
+  return "No Status"
+}
+
+/**
  * If user has clicked on a field, show a card with the field's name
  * and an info window indicating the position of the field on the map.
  * The info window automatically pans to the map by default
@@ -70,10 +89,9 @@ function SelectedFieldCard(): JSX.Element | null {
         {fieldData.fieldName}
         {/* TODO filter mostRecentEvents by containsLocation */}
         {Object.keys(fieldData.mostRecentEvents).map((keyName, i) => (
-          <div key={i}>
-            Device: {keyName}
-            {console.log("fieldData.mostRecentEvents[keyName]", fieldData.mostRecentEvents[keyName].id.pressure)}
-            Summary: {fieldData.mostRecentEvents[keyName].reel.state_current || fieldData.mostRecentEvents[keyName].pressure.state_current || "No status"}
+          <div key={i}> 
+            <div id="device-name">Device: {keyName}</div>
+            <div>Summary: {formatFieldCardMessage(fieldData, keyName)}</div>
           </div>
         ))}
       </MapCard>
