@@ -15,6 +15,7 @@ import {
   getAllFields,
   getFieldById,
   getFieldCenterById,
+  getMostRecentEventsPerField,
 } from "./reducers";
 import { RootState } from "./reducers/store";
 import type { DeviceEvent, Field } from "./types";
@@ -50,10 +51,12 @@ function SelectedFieldCard(): JSX.Element | null {
     }
     const fieldName = getFieldById(state, selectedId)?.field_name;
     const center = getFieldCenterById(state, selectedId);
+    const mostRecentEvents = getMostRecentEventsPerField(state, "Perez-Brown"); // TODO tried fieldName. Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
+
     if (typeof fieldName === "undefined" || typeof center === "undefined") {
       throw new Error(`Incomplete field data for id ${selectedId}`);
     }
-    return { fieldName, center };
+    return { fieldName, center, mostRecentEvents };
   });
   const handleClose = (): void => {
     dispatch(closeFieldInfoWindow());
@@ -65,6 +68,10 @@ function SelectedFieldCard(): JSX.Element | null {
     <>
       <MapCard onClose={handleClose} id="field-card" title="Field">
         {fieldData.fieldName}
+        {/* TODO filter mostRecentEvents by containsLocation */}
+        {/* {fieldData.mostRecentEvents.map((event:DeviceEvent) => (
+          <div>{event}</div>
+      ))} */}
       </MapCard>
       <InfoWindow onCloseClick={handleClose} position={fieldData.center}>
         <div>{fieldData.fieldName}</div>
@@ -89,7 +96,6 @@ function mapStateToProps(state: RootState): {
       }
     });
   }
-  console.log("state", state)
   return {
     deviceEvents: getAllDeviceEvents(state),
     fieldIds: state.fields.ids,

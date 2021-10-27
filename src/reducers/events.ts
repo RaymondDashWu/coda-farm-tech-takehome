@@ -4,10 +4,14 @@ import {
   PayloadAction,
   Reducer,
 } from "@reduxjs/toolkit";
+import booleanContains from "@turf/boolean-contains"
+import { lineString, point } from "@turf/helpers";
+
 import { isUndefined } from "lodash";
 import { getEventDataFromMockedApi } from "../api";
 import { DeviceEvent } from "../types";
 import { RootState } from "./store";
+import fieldsJson from "../api/fields.json";
 
 export interface DeviceEventsState {
   ids: number[];
@@ -115,6 +119,48 @@ export const getAllDeviceEvents = (state: RootState): DeviceEvent[] => {
   },
   []);
 };
+
+/**
+ * Gets most recent event from all devices located within a specified field
+ *
+ * @param {RootState} state - Contains DeviceEvents, Field Info, etc.
+ * @param {string} fieldName - String of requested field
+ * 
+ * @returns {DeviceEvent[]} - All DeviceEvents inside of fieldName's polygons
+ */
+export function getMostRecentEventsPerField(state: RootState, fieldName: string): DeviceEvent[] | any {
+  let returnArr = []
+  for (let i = 0; i < fieldsJson.length; i++) {
+    let polygonArr = []
+    if (fieldsJson[i]?.field_name === fieldName) {
+      // console.log(fieldsJson[i]?.polygon.coordinates)
+      let line = lineString(fieldsJson[i]?.polygon.coordinates[0]) // TODO Argument of type 'number[][] | undefined' is not assignable to parameter of type 'Position[]'
+      for (const [key, value] of Object.entries(state.deviceEvents.mostRecentEvents)) {
+        // console.log("recentEvent", value.gps?.location?.coordinates)
+        let eventPoint = point(value.gps?.location?.coordinates) // TODO Argument of type 'number[] | undefined' is not assignable to parameter of type 'Position'.
+        if (booleanContains(line, eventPoint) === true) {
+          polygonArr.push()
+        } 
+        // console.log("eventPoint", eventPoint)
+      }
+      // console.log("state", state.deviceEvents.mostRecentEvents)
+      // console.log("line", line)
+    }
+    // for (let j = 0; j < fieldsJson[i]?.polygon.coordinates[0]?.length; j++) {
+    //   polygonArr.push(new google.maps.LatLngLiteral)
+    // }
+    // let field = new google.maps.Polygon({
+    //   paths: fieldsJson[i]?.polygon.coordinates[0]
+    // });
+    // console.log("field", field)
+  }
+  // PSEUDO BRAINSTORM
+  // init arr that will contain all devices + events per field
+  // find fieldname in fields.json.
+  // convert field coordinates to google.maps.Polygon
+  // iterate through state.MostRecentEvents and do google.maps.geometry.poly.containsLocation foreach
+  // if true
+}
 
 const deviceEventsReducer: Reducer<DeviceEventsState> = deviceEvents.reducer;
 export default deviceEventsReducer;
