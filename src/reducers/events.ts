@@ -129,6 +129,7 @@ export const getAllDeviceEvents = (state: RootState): DeviceEvent[] => {
  * @returns {DeviceEvent[]} - All DeviceEvents inside of fieldName's polygons
  */
 export function getMostRecentEventsPerField(state: RootState, fieldName: string): DeviceEvent[] | any {
+  return state.deviceEvents.mostRecentEvents
   let returnArr = []
   for (let i = 0; i < fieldsJson.length; i++) {
     let polygonArr = []
@@ -137,22 +138,15 @@ export function getMostRecentEventsPerField(state: RootState, fieldName: string)
       let line = lineString(fieldsJson[i]?.polygon.coordinates[0]) // TODO Argument of type 'number[][] | undefined' is not assignable to parameter of type 'Position[]'
       for (const [key, value] of Object.entries(state.deviceEvents.mostRecentEvents)) {
         // console.log("recentEvent", value.gps?.location?.coordinates)
-        let eventPoint = point(value.gps?.location?.coordinates) // TODO Argument of type 'number[] | undefined' is not assignable to parameter of type 'Position'.
-        if (booleanContains(line, eventPoint) === true) {
-          polygonArr.push()
-        } 
+        // let eventPoint = point(value.gps?.location?.coordinates) // TODO Argument of type 'number[] | undefined' is not assignable to parameter of type 'Position'.
+        // if (booleanContains(line, eventPoint) === true) {
+        //   polygonArr.push()
+        // } 
         // console.log("eventPoint", eventPoint)
       }
       // console.log("state", state.deviceEvents.mostRecentEvents)
       // console.log("line", line)
     }
-    // for (let j = 0; j < fieldsJson[i]?.polygon.coordinates[0]?.length; j++) {
-    //   polygonArr.push(new google.maps.LatLngLiteral)
-    // }
-    // let field = new google.maps.Polygon({
-    //   paths: fieldsJson[i]?.polygon.coordinates[0]
-    // });
-    // console.log("field", field)
   }
   // PSEUDO BRAINSTORM
   // init arr that will contain all devices + events per field

@@ -69,9 +69,13 @@ function SelectedFieldCard(): JSX.Element | null {
       <MapCard onClose={handleClose} id="field-card" title="Field">
         {fieldData.fieldName}
         {/* TODO filter mostRecentEvents by containsLocation */}
-        {/* {fieldData.mostRecentEvents.map((event:DeviceEvent) => (
-          <div>{event}</div>
-      ))} */}
+        {Object.keys(fieldData.mostRecentEvents).map((keyName, i) => (
+          <div key={i}>
+            Device: {keyName}
+            {console.log("fieldData.mostRecentEvents[keyName]", fieldData.mostRecentEvents[keyName].id.pressure)}
+            Summary: {fieldData.mostRecentEvents[keyName].reel.state_current || fieldData.mostRecentEvents[keyName].pressure.state_current || "No status"}
+          </div>
+        ))}
       </MapCard>
       <InfoWindow onCloseClick={handleClose} position={fieldData.center}>
         <div>{fieldData.fieldName}</div>
@@ -79,6 +83,7 @@ function SelectedFieldCard(): JSX.Element | null {
     </>
   );
 }
+
 function mapStateToProps(state: RootState): {
   deviceEvents: DeviceEvent[];
   fieldIds: number[];
